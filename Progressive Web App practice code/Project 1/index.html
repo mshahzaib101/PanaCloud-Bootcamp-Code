@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>PWA project 1</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <!-- REGISTERING ServiceWorker -->
+    
+    <script>
+        if ('serviceWorker' in navigator) {
+          navigator.serviceWorker.register('/sw.js').then(function(registration) {
+            // Registration was successful
+            console.log('ServiceWorker registration successful ', registration.scope);
+          }).catch(function(err) {
+            // registration failed :(
+            console.log('ServiceWorker registration failed: ', err);
+          });
+        }
+    </script>
+    <!-- REGISTERING ServiceWorker -->  
+    
+</head>
+<body>
+    <h1>Users</h1>
+    <input type="submit" onclick="fetcher();" value="GET LIST">
+    
+</body>
+<script src="index.js"></script>
+</html>

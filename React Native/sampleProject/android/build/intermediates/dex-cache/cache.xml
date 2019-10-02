@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="C:\Users\M Shahzaib Shoaib\.android\build-cache\63ebfb7c6c5841cb4d5e75694b35cb72ffa56c3d\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.3"
+        sha1="e7a850c25a7efbd533c496ab482c980fdafac58d">
+        <dex dex="C:\Users\M Shahzaib Shoaib\Desktop\React Native\sampleProject\android\app\build\intermediates\pre-dexed\debug\classes_90318103fda2108edd5b2230b16ee97f148c7154.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\M Shahzaib Shoaib\.android\build-cache\63ebfb7c6c5841cb4d5e75694b35cb72ffa56c3d\output\jars\libs\infer-annotations-4.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.3"
+        sha1="9809e90be788acdb479b2b44e2112f3295a03068">
+        <dex dex="C:\Users\M Shahzaib Shoaib\Desktop\React Native\sampleProject\android\app\build\intermediates\pre-dexed\debug\infer-annotations-4.0_7baa5bdd2158225627f7cf14807de4bf54f6ccdd.jar" />
+    </item>
+
+</items>
